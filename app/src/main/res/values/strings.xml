@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">KhabarovskTourGide</string>
+
+    <string-array name="museums_name">
+        <item>The Khabarovsk Regional Museum after N.I. Grodekov</item>
+        <item>Military History Museum of the Far Eastern Military District</item>
+        <item>Museum of The History of Amur Bridge</item>
+        <item>Okladnikov Archaeology Museum</item>
+        <item>Far Eastern Art Museum</item>
+    </string-array>
+
+    <string-array name="museums_description">
+        <item>It is the main museum of Khabarovsk, contains a lot of exhibitions worth to see. Museum was founded by N. I. Grodekov.
+            The exposition devoted to paleontology and geology of the Amur River basin, flora and fauna, the Amur River fish,
+            the culture of the indigenous peoples of the Amur and Slavs-settlers, the history and development of the Russian Far East,
+            the events of the Civil War in the Far East of 1917-1922.</item>
+        <item>The Military History Museum of Far Eastern Military District is located in an old building on the bank of the Amur River.
+            Expositions of the military history museum number more than twelve thousand exhibits associated with the history from the time of its creation to our days.
+            It contains a large number of military vehicles in the open air, which can easily climb.</item>
+        <item>The museum is dedicated to the construction and reconstruction of the bridge over the Amur River near the city of Khabarovsk,
+            in addition to the open air railway equipment is placed and the main exhibit of the museum is a dismantled farm of the "royal" bridge.</item>
+        <item>Museum was opened in 1998. The museum is the only Far Eastern museum devoted entirely to the distant past of the Amur Region.
+            The museum's funds hold over 120,000 ancient artifacts collected in expeditions of Khabarovsk, Novosibirsk and Vladivostok scientists.
+            The pearl of the museum are the collections collected by Arseniev V.K. and Okladnikov A.P.</item>
+        <item>It is the biggest Russian state-owned collection of the works art located in the western part ofPacific region.
+            The Museum is located in the most picturesque place of Khabarovsk on the high bank of Amur river,
+            occupying the building of former Officer Assembly.
+            Thousands of Khabarovsk residents and multiple Russian and foreign guests of the city visit the Museum annually and enjoy the original old European and Russian paintings,
+            antique ceramics, ancient Russian paintings, works of art by the Amur aboriginal and modern artists of the Russian far East.
+            The collection exceeds now some 11000 exhibits. The Museum distinguished among the other museums of Russia for its broad exhibition activity.
+            Museum exhibits its collections in other parts of Russia, represents the Russian Art in the galleries of Japan, Canada, the USA.</item>
+    </string-array>
+
+    <string-array name="museums_address">
+        <item>Shevchenko St., 11</item>
+        <item>Shevchenko St., 20</item>
+        <item>Vokhr, 1A</item>
+        <item>Turgeneva St., 86</item>
+        <item>Shevchenko St., 7</item>
+    </string-array>
+
+    <string-array name="museums_phone">
+        <item>8 (421) 230-31-92</item>
+        <item>8 (421) 232-63-50</item>
+        <item>8 (421) 279-61-65</item>
+        <item>empty</item>
+        <item>8 (421) 232-83-38</item>
+    </string-array>
+
+    <string-array name="museums_sight">
+        <item>http://www.hkm.ru</item>
+        <item>http://www.artillery-museum.ru</item>
+        <item>empty</item>
+        <item>empty</item>
+        <item>http://www.двхм.рф</item>
+    </string-array>
+
+    <string-array name="museums_photo">
+        <item>grodekov_museum</item>
+        <item>military_history_museum</item>
+        <item>museum_of_the_history_of_amur_bridge</item>
+        <item>okladnikov_archaeology_museum</item>
+        <item>far_eastern_art_museum</item>
+    </string-array>
+
+
+    <string-array name="cafe_name">
+        <item>Signor Pomidor</item>
+        <item>Le Nouage</item>
+        <item>Vdrova</item>
+        <item>Iron Kabis</item>
+        <item>Meet Meat</item>
+    </string-array>
+
+    <string-array name="cafe_description">
+        <item>One of the first and, perhaps, the best network of pizzerias in Khabarovsk. Dishes and salads are beyond praise. I recommend "Callabria" and "Capricious".</item>
+        <item>Author's confectionery with the most amazing macaroons.</item>
+        <item>Theme café with an atmosphere of Italian fairy tales and with a decent cuisine. Scream "Mama Mia" to call the waiter.</item>
+        <item>Ossetian pies, homemade wine and beer. Cozy warm atmosphere of the Caucasian feast.</item>
+        <item>The restaurant will definitely appeal to lovers of steaks</item>
+    </string-array>
+
+    <string-array name="cafe_address">
+        <item>Lenina St., 53</item>
+        <item>Komsomolskaya St., 79</item>
+        <item>Muraviev Amursky St., 15</item>
+        <item>Amur boulevard 56A</item>
+        <item>Muraviev Amursky St., 5</item>
+    </string-array>
+
+    <string-array name="cafe_phone">
+        <item>8 (421) 235-27-27</item>
+        <item>8 (924) 404-04-89</item>
+        <item>8 (421) 294-21-11</item>
+        <item>8 (421) 245-17-71</item>
+        <item>8 (962) 502-02-30</item>
+    </string-array>
+
+    <string-array name="cafe_site">
+        <item>http://www.spomidor.ru/</item>
+        <item>empty</item>
+        <item>empty</item>
+        <item>http://www.ironkabis.ru/</item>
+        <item>empty</item>
+    </string-array>
+
+    <string-array name="cafe_photo">
+        <item>signor_pomidor</item>
+        <item>le_nouage</item>
+        <item>vdrova</item>
+        <item>iron_kabis</item>
+        <item>meet_meat</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
