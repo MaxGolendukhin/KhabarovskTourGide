@@ -18,6 +18,15 @@
         <item>@array/cafe_photo</item>
     </array>
 
+    <array name="parks">
+        <item>@array/parks_name</item>
+        <item>@array/parks_description</item>
+        <item>@array/parks_address</item>
+        <item>@array/parks_phone</item>
+        <item>@array/parks_site</item>
+        <item>@array/parks_photo</item>
+    </array>
+
 
 
 </resources>

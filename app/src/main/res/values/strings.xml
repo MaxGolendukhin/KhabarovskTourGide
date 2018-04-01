@@ -64,6 +64,10 @@
     </string-array>
 
 
+
+
+
+
     <string-array name="cafe_name">
         <item>Signor Pomidor</item>
         <item>Le Nouage</item>
@@ -112,8 +116,73 @@
         <item>meet_meat</item>
     </string-array>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
+
+
+    <string-array name="parks_name">
+        <item>Nevelskoy embankment</item>
+        <item>North Park</item>
+        <item>Khabarovsk city ponds</item>
+        <item>The Square of Glory</item>
+        <item>Plyusnin\'s capture</item>
+    </string-array>
+
+    <string-array name="parks_description">
+        <item>It is the main historical sight of Khabarovsk. In the center of the embankment is the famous Amur cliff with a viewing platform, from which fabulous pictures of the city and the mighty Amur open.
+            From here you can enjoy sunsets over the river, peering into the northern spurs of the Sikhote Alin.
+        Not far from the cliff there is a city beach and a pier, from which you can go for a short walk along the Amur.</item>
+        <item>Park area with ponds. The habitat of several geese and ducks, which, to the delight of children, allow themselves to be fed.
+            The park smoothly flows into the walking area with an abundance of paths. In the center of the park is the Temple of St. Seraphim of Sarov.
+            In the park there is also an underground spring with spring water.</item>
+        <item>Khabarovsk city ponds are three ponds, cascaded and separated by small dams.
+            Here, pedestrian shady alleys are broken and access roads are built.
+            Many figurines from Soviet-era cartoons have been installed here (Bremen musicians, Winnie the Pooh, Leopold Cat, cartoon characters "Well, wait!"), which delight kids, and their parents.
+            Summer evenings include singing colored fountains.</item>
+        <item>It is located in the highest point of Khabarovsk, with which you can see the most beautiful views of the Amur.
+            Be sure to visit the memorial to the fallen heroes. One of the places where time stops.
+            The Transfiguration Cathedral of Khabarovsk is the highest point in the city.</item>
+        <item>Being distant from Khabarovsk for several kilometers, the park is worth it to see it.
+            The cleanest air, views of the Amur and the city center, the beach, the abundance of cafes and promenades is definitely worth it to spend a day off here.</item>
+    </string-array>
+
+    <string-array name="parks_address">
+        <item>maps</item>
+        <item>Kakhovskaya St., 22</item>
+        <item>map</item>
+        <item>Turgeneva St., 24</item>
+        <item>Mostovaya St., 22</item>
+    </string-array>
+
+    <string-array name="parks_phone">
+        <item>empty</item>
+        <item>empty</item>
+        <item>empty</item>
+        <item>empty</item>
+        <item>8 (914) 326-06-71</item>
+    </string-array>
+
+    <string-array name="parks_site">
+        <item>empty</item>
+        <item>empty</item>
+        <item>empty</item>
+        <item>empty</item>
+        <item>zaimka-camp.ru</item>
+    </string-array>
+
+    <string-array name="parks_photo">
+        <item>nevelskoy_embankment</item>
+        <item>north_park</item>
+        <item>khabarovsk_city_ponds</item>
+        <item>square_of_glory</item>
+        <item>plyusnins_capture</item>
+    </string-array>
+
+
+
+
+
 
 
 </resources>

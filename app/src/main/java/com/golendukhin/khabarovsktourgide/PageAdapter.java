@@ -18,7 +18,8 @@ class PageAdapter extends FragmentPagerAdapter {
                 return new MuseumsFragment();
             case 1:
                 return new CafeFragment();
-
+            case 2:
+                return new ParksFragment();
         }
         return null;
 
@@ -26,7 +27,7 @@ class PageAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 2;
+        return 3;
     }
 
     @Override
@@ -36,6 +37,8 @@ class PageAdapter extends FragmentPagerAdapter {
                 return "museums";
             case 1:
                 return "cafes";
+            case 2:
+                return "parks";
         }
         return null;
     }
