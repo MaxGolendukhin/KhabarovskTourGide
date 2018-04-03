@@ -27,6 +27,12 @@
         <item>@array/parks_photo</item>
     </array>
 
-
-
+    <array name="theaters">
+        <item>@array/theaters_name</item>
+        <item>@array/theaters_description</item>
+        <item>@array/theaters_address</item>
+        <item>@array/theaters_phone</item>
+        <item>@array/theaters_site</item>
+        <item>@array/theaters_photo</item>
+    </array>
 </resources>

@@ -21,13 +21,13 @@ class PageAdapter extends FragmentPagerAdapter {
             case 2:
                 return new ParksFragment();
         }
-        return null;
+        return new TheaterFragment();
 
     }
 
     @Override
     public int getCount() {
-        return 3;
+        return 4;
     }
 
     @Override
@@ -40,6 +40,6 @@ class PageAdapter extends FragmentPagerAdapter {
             case 2:
                 return "parks";
         }
-        return null;
+        return "theaters";
     }
 }
