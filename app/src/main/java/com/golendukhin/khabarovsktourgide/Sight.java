@@ -2,7 +2,7 @@ package com.golendukhin.khabarovsktourgide;
 
 import java.io.Serializable;
 
-class Sight implements Serializable{
+class Sight implements Serializable {
     private String name;
     private String description;
     private String address;
@@ -17,7 +17,6 @@ class Sight implements Serializable{
         this.site = site;
         this.name = name;
         this.imageResourceId = imageResourceId;
-
     }
 
     public int getImageResourceId() {

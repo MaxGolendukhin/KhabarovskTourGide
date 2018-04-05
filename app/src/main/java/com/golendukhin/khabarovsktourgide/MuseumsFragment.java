@@ -12,55 +12,25 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import java.util.ArrayList;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
 
-///**
-// * A fragment representing a list of Items.
-// * <p/>
-// * Activities containing this fragment MUST implement the {@link OnListFragmentInteractionListener}
-// * interface.
-// */
 public class MuseumsFragment extends Fragment {
+    @BindView(R.id.list_view) ListView listView;
+
     ArrayList<Sight> sights;
 
-    /**
-     * Mandatory empty constructor for the fragment manager to instantiate the
-     * fragment (e.g. upon screen orientation changes).
-     */
     public MuseumsFragment() {
     }
-
-//    // TODO: Customize parameter initialization
-//    @SuppressWarnings("unused")
-//    public static MuseumsFragment newInstance(int columnCount) {
-//        MuseumsFragment fragment = new MuseumsFragment();
-//        Bundle args = new Bundle();
-//        args.putInt(ARG_COLUMN_COUNT, columnCount);
-//        fragment.setArguments(args);
-//        return fragment;
-//    }
-
-//    @Override
-//    public void onCreate(Bundle savedInstanceState) {
-//        super.onCreate(savedInstanceState);
-//
-//
-//    }
 
     @Override
     public View onCreateView(final LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_item_list, container, false);
+        ButterKnife.bind(this, view);
 
-        //Bundle bundle = getArguments();
         sights = getSights();
 
-
-        //ArrayList<Sight> sights = (ArrayList<Sight>)bundle.getSerializable("sights");
-
-
-        //final SightRecyclerViewAdapter sightRecyclerViewAdapter = new SightRecyclerViewAdapter(museumSights);
         final SightAdapter sightAdapter = new SightAdapter(getContext(), sights);
-        //RecyclerView recyclerView = view.findViewById(R.id.list);
-        ListView listView = view.findViewById(R.id.list_view);
         listView.setAdapter(sightAdapter);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -71,43 +41,12 @@ public class MuseumsFragment extends Fragment {
                 startActivity(intent);
             }
         });
-
         return view;
     }
 
-//
-//    @Override
-//    public void onAttach(Context context) {
-//        super.onAttach(context);
-//        if (context instanceof OnListFragmentInteractionListener) {
-//            mListener = (OnListFragmentInteractionListener) context;
-//        } else {
-//            throw new RuntimeException(context.toString()
-//                    + " must implement OnListFragmentInteractionListener");
-//        }
-//    }
-
-//    @Override
-//    public void onDetach() {
-//        super.onDetach();
-//        mListener = null;
-//    }
-
     /**
-     * This interface must be implemented by activities that contain this
-     * fragment to allow an interaction in this fragment to be communicated
-     * to the activity and potentially other fragments contained in that
-     * activity.
-     * <p/>
-     * See the Android Training lesson <a href=
-     * "http://developer.android.com/training/basics/fragments/communicating.html"
-     * >Communicating with Other Fragments</a> for more information.
+     * @return museums arrayList to populate list
      */
-//    public interface OnListFragmentInteractionListener {
-//        // TODO: Update argument type and name
-//        void onListFragmentInteraction(DummyItem item);
-//    }
-
     private ArrayList<Sight> getSights() {
         Resources resources = getResources();
         TypedArray typedArray = resources.obtainTypedArray(R.array.museums);
@@ -119,7 +58,6 @@ public class MuseumsFragment extends Fragment {
             optionsResources[i] = resources.getStringArray(id);
         }
         typedArray.recycle();
-
 
         ArrayList<Sight> sights = new ArrayList<>();
         for (int j = 0; j < optionsResources[0].length; j++) {

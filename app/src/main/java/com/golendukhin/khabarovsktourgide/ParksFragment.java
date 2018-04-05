@@ -11,8 +11,12 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import java.util.ArrayList;
+import butterknife.BindView;
+import butterknife.ButterKnife;
 
 public class ParksFragment extends Fragment {
+    @BindView(R.id.list_view) ListView listView;
+
     ArrayList<Sight> sights;
 
     public ParksFragment() {
@@ -21,10 +25,10 @@ public class ParksFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_item_list, container, false);
+        ButterKnife.bind(this, view);
 
         sights = getSights();
         SightAdapter sightAdapter = new SightAdapter(getContext(), sights);
-        ListView listView = view.findViewById(R.id.list_view);
         listView.setAdapter(sightAdapter);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -38,6 +42,9 @@ public class ParksFragment extends Fragment {
         return view;
     }
 
+    /**
+     * @return parks arrayList to populate list
+     */
     private ArrayList<Sight> getSights() {
         Resources resources = getResources();
         TypedArray typedArray = resources.obtainTypedArray(R.array.parks);

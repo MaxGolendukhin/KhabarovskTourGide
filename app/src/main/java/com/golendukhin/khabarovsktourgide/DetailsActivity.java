@@ -19,6 +19,10 @@ public class DetailsActivity extends AppCompatActivity {
     @BindView(R.id.phone_linear_layout) LinearLayout phoneLinearLayout;
     @BindView(R.id.phone_text_view) TextView phoneTextView;
 
+    /**
+     * Populates detailsActivity with data for particular sight
+     * If there is no site or phone, respective views are gone
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

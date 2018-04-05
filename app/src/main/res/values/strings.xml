@@ -10,25 +10,12 @@
     </string-array>
 
     <string-array name="museums_description">
-        <item>It is the main museum of Khabarovsk, contains a lot of exhibitions worth to see. Museum was founded by N. I. Grodekov.
-            The exposition devoted to paleontology and geology of the Amur River basin, flora and fauna, the Amur River fish,
-            the culture of the indigenous peoples of the Amur and Slavs-settlers, the history and development of the Russian Far East,
-            the events of the Civil War in the Far East of 1917-1922.</item>
-        <item>The Military History Museum of Far Eastern Military District is located in an old building on the bank of the Amur River.
-            Expositions of the military history museum number more than twelve thousand exhibits associated with the history from the time of its creation to our days.
-            It contains a large number of military vehicles in the open air, which can easily climb.</item>
-        <item>The museum is dedicated to the construction and reconstruction of the bridge over the Amur River near the city of Khabarovsk,
-            in addition to the open air railway equipment is placed and the main exhibit of the museum is a dismantled farm of the "royal" bridge.</item>
-        <item>Museum was opened in 1998. The museum is the only Far Eastern museum devoted entirely to the distant past of the Amur Region.
-            The museum's funds hold over 120,000 ancient artifacts collected in expeditions of Khabarovsk, Novosibirsk and Vladivostok scientists.
+        <item>It is the main museum of Khabarovsk, contains a lot of exhibitions worth to see. Museum was founded by N. I. Grodekov. The exposition devoted to paleontology and geology of the Amur River basin, flora and fauna, the Amur River fish, the culture of the indigenous peoples of the Amur and Slavs-settlers, the history and development of the Russian Far East, the events of the Civil War in the Far East of 1917-1922.</item>
+        <item>The Military History Museum of Far Eastern Military District is located in an old building on the bank of the Amur River. Expositions of the military history museum number more than twelve thousand exhibits associated with the history from the time of its creation to our days. It contains a large number of military vehicles in the open air, which can easily climb.</item>
+        <item>The museum is dedicated to the construction and reconstruction of the bridge over the Amur River near the city of Khabarovsk, in addition to the open air railway equipment is placed and the main exhibit of the museum is a dismantled farm of the "royal" bridge.</item>
+        <item>Museum was opened in 1998. The museum is the only Far Eastern museum devoted entirely to the distant past of the Amur Region. The museum's funds hold over 120,000 ancient artifacts collected in expeditions of Khabarovsk, Novosibirsk and Vladivostok scientists.
             The pearl of the museum are the collections collected by Arseniev V.K. and Okladnikov A.P.</item>
-        <item>It is the biggest Russian state-owned collection of the works art located in the western part ofPacific region.
-            The Museum is located in the most picturesque place of Khabarovsk on the high bank of Amur river,
-            occupying the building of former Officer Assembly.
-            Thousands of Khabarovsk residents and multiple Russian and foreign guests of the city visit the Museum annually and enjoy the original old European and Russian paintings,
-            antique ceramics, ancient Russian paintings, works of art by the Amur aboriginal and modern artists of the Russian far East.
-            The collection exceeds now some 11000 exhibits. The Museum distinguished among the other museums of Russia for its broad exhibition activity.
-            Museum exhibits its collections in other parts of Russia, represents the Russian Art in the galleries of Japan, Canada, the USA.</item>
+        <item>It is the biggest Russian state-owned collection of the works art located in the western part ofPacific region. The Museum is located in the most picturesque place of Khabarovsk on the high bank of Amur river, occupying the building of former Officer Assembly. Thousands of Khabarovsk residents and multiple Russian and foreign guests of the city visit the Museum annually and enjoy the original old European and Russian paintings, antique ceramics, ancient Russian paintings, works of art by the Amur aboriginal and modern artists of the Russian far East. The collection exceeds now some 11000 exhibits. The Museum distinguished among the other museums of Russia for its broad exhibition activity. Museum exhibits its collections in other parts of Russia, represents the Russian Art in the galleries of Japan, Canada, the USA.</item>
     </string-array>
 
     <string-array name="museums_address">
@@ -48,11 +35,11 @@
     </string-array>
 
     <string-array name="museums_sight">
-        <item>http://www.hkm.ru</item>
-        <item>http://www.artillery-museum.ru</item>
+        <item>hkm.ru</item>
+        <item>artillery-museum.ru</item>
         <item>empty</item>
         <item>empty</item>
-        <item>http://www.двхм.рф</item>
+        <item>двхм.рф</item>
     </string-array>
 
     <string-array name="museums_photo">
@@ -62,10 +49,6 @@
         <item>okladnikov_archaeology_museum</item>
         <item>far_eastern_art_museum</item>
     </string-array>
-
-
-
-
 
 
     <string-array name="cafe_name">
@@ -101,10 +84,10 @@
     </string-array>
 
     <string-array name="cafe_site">
-        <item>http://www.spomidor.ru/</item>
+        <item>spomidor.ru</item>
         <item>empty</item>
         <item>empty</item>
-        <item>http://www.ironkabis.ru/</item>
+        <item>ironkabis.ru</item>
         <item>empty</item>
     </string-array>
 
@@ -117,10 +100,6 @@
     </string-array>
 
 
-
-
-
-
     <string-array name="parks_name">
         <item>Nevelskoy embankment</item>
         <item>North Park</item>
@@ -130,21 +109,13 @@
     </string-array>
 
     <string-array name="parks_description">
-        <item>It is the main historical sight of Khabarovsk. In the center of the embankment is the famous Amur cliff with a viewing platform, from which fabulous pictures of the city and the mighty Amur open.
-            From here you can enjoy sunsets over the river, peering into the northern spurs of the Sikhote Alin.
-        Not far from the cliff there is a city beach and a pier, from which you can go for a short walk along the Amur.</item>
-        <item>Park area with ponds. The habitat of several geese and ducks, which, to the delight of children, allow themselves to be fed.
-            The park smoothly flows into the walking area with an abundance of paths. In the center of the park is the Temple of St. Seraphim of Sarov.
+        <item>It is the main historical sight of Khabarovsk. In the center of the embankment is the famous Amur cliff with a viewing platform, from which fabulous pictures of the city and the mighty Amur open. From here you can enjoy sunsets over the river, peering into the northern spurs of the Sikhote Alin. Not far from the cliff there is a city beach and a pier, from which you can go for a short walk along the Amur.</item>
+        <item>Park area with ponds. The habitat of several geese and ducks, which, to the delight of children, allow themselves to be fed. The park smoothly flows into the walking area with an abundance of paths. In the center of the park is the Temple of St. Seraphim of Sarov.
             In the park there is also an underground spring with spring water.</item>
-        <item>Khabarovsk city ponds are three ponds, cascaded and separated by small dams.
-            Here, pedestrian shady alleys are broken and access roads are built.
-            Many figurines from Soviet-era cartoons have been installed here (Bremen musicians, Winnie the Pooh, Leopold Cat, cartoon characters "Well, wait!"), which delight kids, and their parents.
+        <item>Khabarovsk city ponds are three ponds, cascaded and separated by small dams. Here, pedestrian shady alleys are broken and access roads are built. Many figurines from Soviet-era cartoons have been installed here (Bremen musicians, Winnie the Pooh, Leopold Cat, cartoon characters "Well, wait!"), which delight kids, and their parents.
             Summer evenings include singing colored fountains.</item>
-        <item>It is located in the highest point of Khabarovsk, with which you can see the most beautiful views of the Amur.
-            Be sure to visit the memorial to the fallen heroes. One of the places where time stops.
-            The Transfiguration Cathedral of Khabarovsk is the highest point in the city.</item>
-        <item>Being distant from Khabarovsk for several kilometers, the park is worth it to see it.
-            The cleanest air, views of the Amur and the city center, the beach, the abundance of cafes and promenades is definitely worth it to spend a day off here.</item>
+        <item>It is located in the highest point of Khabarovsk, with which you can see the most beautiful views of the Amur. Be sure to visit the memorial to the fallen heroes. One of the places where time stops. The Transfiguration Cathedral of Khabarovsk is the highest point in the city.</item>
+        <item>Being distant from Khabarovsk for several kilometers, the park is worth it to see it. The cleanest air, views of the Amur and the city center, the beach, the abundance of cafes and promenades is definitely worth it to spend a day off here.</item>
     </string-array>
 
     <string-array name="parks_address">
@@ -180,10 +151,6 @@
     </string-array>
 
 
-
-
-
-
     <string-array name="theaters_name">
         <item>Khabarovsk Regional Drama Theater</item>
         <item>Khabarovsk Regional Musical Theater</item>
@@ -193,27 +160,11 @@
     </string-array>
 
     <string-array name="theaters_description">
-        <item>Khabarovsk Territory Drama Theater opened its doors to the audience in the distant 1946.
-            At present, the theater of drama is one of the leading cultural institutions of the Khabarovsk Territory.
-            Every season the theater pleases the Far East viewer with new productions and tours of the leading Russian theater groups.
-            Over 70 years in the theater of drama more than 450 performances from the heritage of the world and modern dramaturgy</item>
-        <item>The theater is one of the oldest creative teams in the country. The first Far Eastern labor collective of the artists of the comic opera was opened in October 1926 by the operetta "Silva" by I. Kalman.
-            In those early years, the Khabarovsk people called the young troupe "the theater of joy".
-            At first the theater worked in Khabarovsk for no more than two, three months. Moving alternately to Vladivostok, Chita, Blagoveshchensk</item>
-        <item>The musical life in the Philharmonic begins in the early morning.
-            Rehearsals of the Far Eastern Academic Symphony Orchestra, concerts of creative groups and soloists of the Philharmonic are held here.
-            A lot of wonderful Russian and foreign creative groups and artists perform on the stage. In addition, various festivals for residents and visitors of the city - an international music festival under the leadership of Y. Bashmet, Far Eastern festivals of organ music "Renaissance" and folk music "In the Amur open spaces" with great success.
-            The Concert Hall of the Khabarovsk Krai Philharmonic is the only one in the Far East where you can hear the sound of the organ.
-            Our body is unique - electronic in nature, it is not inferior to the best organs of the world, because its sound consists of recorded "voices" of these organs.
-            More than 100 different sound combinations can be reproduced by the Khabarovsk body.</item>
-        <item>Theater "TRIADA" is rightly called the theatrical landmark of Khabarovsk.
-            The amateur pantomime studio, organized by the graduate of the Culture Institute Vadim Gogolkov in 1975, grew into a folk theater, transformed into a studio theater in the wake of the studio movement of the late 1980s, finally, in 1993, it acquired the status of a municipal pantomime theater.</item>
-        <item>Today the theater is building its artistic program, proceeding from the belief that the children's theater is a theater that educates the younger generation, instilling a taste for it, and not flirting with it.
-            For more than 70 years the theater has been delighting and educating small spectators, during this time, about 400 performances have been staged in the Theater of the Young Spectator.
-            The creative composition of our theatrical company is a unique combination of experience and young initiative.
-            The staff of the theater of the young spectator of Khabarovsk is a team of like-minded people. We do what we love.
-            The theater is a place where you can live a real life, experience genuine feelings.
-            It is behind this that people come to the auditorium, they come for happiness. Theater is a belief in life.</item>
+        <item>Khabarovsk Territory Drama Theater opened its doors to the audience in the distant 1946. At present, the theater of drama is one of the leading cultural institutions of the Khabarovsk Territory. Every season the theater pleases the Far East viewer with new productions and tours of the leading Russian theater groups. Over 70 years in the theater of drama more than 450 performances from the heritage of the world and modern dramaturgy.</item>
+        <item>The theater is one of the oldest creative teams in the country. The first Far Eastern labor collective of the artists of the comic opera was opened in October 1926 by the operetta "Silva" by I. Kalman. In those early years, the Khabarovsk people called the young troupe "the theater of joy". At first the theater worked in Khabarovsk for no more than two, three months. Moving alternately to Vladivostok, Chita, Blagoveshchensk</item>
+        <item>The musical life in the Philharmonic begins in the early morning. Rehearsals of the Far Eastern Academic Symphony Orchestra, concerts of creative groups and soloists of the Philharmonic are held here. A lot of wonderful Russian and foreign creative groups and artists perform on the stage. In addition, various festivals for residents and visitors of the city - an international music festival under the leadership of Y. Bashmet, Far Eastern festivals of organ music "Renaissance" and folk music "In the Amur open spaces" with great success. The Concert Hall of the Khabarovsk Region Philharmonic is the only one in the Far East where you can hear the sound of the organ. Our body is unique - electronic in nature, it is not inferior to the best organs of the world, because its sound consists of recorded "voices" of these organs. More than 100 different sound combinations can be reproduced by the Khabarovsk body.</item>
+        <item>Theater "TRIADA" is rightly called the theatrical landmark of Khabarovsk. The amateur pantomime studio, organized by the graduate of the Culture Institute Vadim Gogolkov in 1975, grew into a folk theater, transformed into a studio theater in the wake of the studio movement of the late 1980s, finally, in 1993, it acquired the status of a municipal pantomime theater.</item>
+        <item>Today the theater is building its artistic program, proceeding from the belief that the children\'s theater is a theater that educates the younger generation, instilling a taste for it, and not flirting with it. For more than 70 years the theater has been delighting and educating small spectators, during this time, about 400 performances have been staged in the Theater of the Young Spectator. The creative composition of our theatrical company is a unique combination of experience and young initiative. The staff of the theater of the young spectator of Khabarovsk is a team of like-minded people. We do what we love. The theater is a place where you can live a real life, experience genuine feelings. It is behind this that people come to the auditorium, they come for happiness. Theater is a belief in life.</item>
     </string-array>
 
     <string-array name="theaters_address">
@@ -233,7 +184,7 @@
     </string-array>
 
     <string-array name="theaters_site">
-        <item>habdrama.ru/</item>
+        <item>habdrama.ru</item>
         <item>muzteatr.khv.ru</item>
         <item>phildv.ru</item>
         <item>triada27.ru</item>
@@ -247,11 +198,4 @@
         <item>triada</item>
         <item>theater_of_the_young_viewer</item>
     </string-array>
-
-
-
-
-
-
-
 </resources>

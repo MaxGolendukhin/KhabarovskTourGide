@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/KhabarovskTourGide.iml" filepath="$PROJECT_DIR$/KhabarovskTourGide.iml" />
+      <module fileurl="file://C:\Android\AndroidStudioProjects\KhabarovskTourGide\KhabarovskTourGide.iml" filepath="C:\Android\AndroidStudioProjects\KhabarovskTourGide\KhabarovskTourGide.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Android\AndroidStudioProjects\KhabarovskTourGide\app\app.iml" filepath="C:\Android\AndroidStudioProjects\KhabarovskTourGide\app\app.iml" />
     </modules>
   </component>
 </project>

@@ -6,11 +6,16 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 class PageAdapter extends FragmentPagerAdapter {
     FragmentManager fragmentManager;
+
     public PageAdapter(FragmentManager fragmentManager) {
         super(fragmentManager);
         this.fragmentManager = fragmentManager;
     }
 
+    /**
+     * @param position of fragment
+     * @return fragment for every tab
+     */
     @Override
     public Fragment getItem(int position) {
         switch (position) {
@@ -22,14 +27,20 @@ class PageAdapter extends FragmentPagerAdapter {
                 return new ParksFragment();
         }
         return new TheaterFragment();
-
     }
 
+    /**
+     * @return quantity of tabs
+     */
     @Override
     public int getCount() {
         return 4;
     }
 
+    /**
+     * @param position for which name of tab will be returned
+     * @return name of page
+     */
     @Override
     public CharSequence getPageTitle(int position) {
         switch (position) {
