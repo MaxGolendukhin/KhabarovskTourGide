@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <ImageView
         android:id="@+id/image_view"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/top_image_height"
         android:scaleType="centerCrop"
+        android:transitionName="imageTransition"
         app:srcCompat="@drawable/far_eastern_art_museum" />
 
     <android.support.v4.widget.NestedScrollView
@@ -20,9 +20,9 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
             android:layout_marginLeft="@dimen/details_activity_text_view_left_right_margin"
-            android:layout_marginRight="@dimen/details_activity_text_view_left_right_margin">
+            android:layout_marginRight="@dimen/details_activity_text_view_left_right_margin"
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/title_text_view"
@@ -42,67 +42,67 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
+                android:layout_marginBottom="@dimen/standard_margin"
                 android:layout_marginTop="@dimen/standard_margin"
-                android:layout_marginBottom="@dimen/standard_margin">
+                android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/location_24dp"
-                    android:layout_gravity="center_vertical"/>
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/location_24dp" />
 
                 <TextView
                     android:id="@+id/address_text_view"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/standard_margin"
-                    android:textSize="@dimen/text_title_description"
-                    android:gravity="fill_vertical"/>
+                    android:gravity="fill_vertical"
+                    android:textSize="@dimen/text_title_description" />
             </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/site_linear_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginBottom="@dimen/standard_margin">
+                android:layout_marginBottom="@dimen/standard_margin"
+                android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/site_24dp"
-                    android:layout_gravity="center_vertical"/>
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/site_24dp" />
 
                 <TextView
                     android:id="@+id/site_text_view"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/standard_margin"
-                    android:textSize="@dimen/text_title_description"
-                    android:gravity="fill_vertical"/>
+                    android:gravity="fill_vertical"
+                    android:textSize="@dimen/text_title_description" />
             </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/phone_linear_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginBottom="@dimen/standard_margin">
+                android:layout_marginBottom="@dimen/standard_margin"
+                android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/phone_24dp"
-                    android:layout_gravity="center_vertical"/>
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/phone_24dp" />
 
                 <TextView
                     android:id="@+id/phone_text_view"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/standard_margin"
-                    android:textSize="@dimen/text_title_description"
-                    android:gravity="fill_vertical"/>
+                    android:gravity="fill_vertical"
+                    android:textSize="@dimen/text_title_description" />
             </LinearLayout>
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
