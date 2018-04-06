@@ -7,6 +7,7 @@
         <item>@array/museums_phone</item>
         <item>@array/museums_sight</item>
         <item>@array/museums_photo</item>
+        <item>@array/museums_coordinates</item>
     </array>
 
     <array name="cafes">
@@ -16,6 +17,7 @@
         <item>@array/cafe_phone</item>
         <item>@array/cafe_site</item>
         <item>@array/cafe_photo</item>
+        <item>@array/cafe_coordinates</item>
     </array>
 
     <array name="parks">
@@ -25,6 +27,7 @@
         <item>@array/parks_phone</item>
         <item>@array/parks_site</item>
         <item>@array/parks_photo</item>
+        <item>@array/parks_coordinates</item>
     </array>
 
     <array name="theaters">
@@ -34,5 +37,6 @@
         <item>@array/theaters_phone</item>
         <item>@array/theaters_site</item>
         <item>@array/theaters_photo</item>
+        <item>@array/theaters_coordinates</item>
     </array>
 </resources>

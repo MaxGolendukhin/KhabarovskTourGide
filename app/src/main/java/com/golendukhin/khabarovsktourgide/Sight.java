@@ -9,37 +9,43 @@ class Sight implements Serializable {
     private String phone;
     private String site;
     private int imageResourceId;
+    private String coordinates;
 
-    Sight(String name, String description, String address, String phone, String site, int imageResourceId) {
+    Sight(String name, String description, String address, String phone, String site, int imageResourceId, String coordinates) {
         this.description = description;
         this.address = address;
         this.phone = phone;
         this.site = site;
         this.name = name;
         this.imageResourceId = imageResourceId;
+        this.coordinates = coordinates;
     }
 
-    public int getImageResourceId() {
+    int getImageResourceId() {
         return imageResourceId;
     }
 
-    public String getDescription() {
+    String getDescription() {
         return description;
     }
 
-    public String getAddress() {
+    String getAddress() {
         return address;
     }
 
-    public String getPhone() {
+    String getPhone() {
         return phone;
     }
 
-    public String getSite() {
+    String getSite() {
         return site;
     }
 
-    public String getName() {
+    String getName() {
         return name;
+    }
+
+    String getCoordinates() {
+        return coordinates;
     }
 }

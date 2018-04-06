@@ -1,6 +1,8 @@
 package com.golendukhin.khabarovsktourgide;
 
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -19,6 +21,7 @@ public class DetailsActivity extends AppCompatActivity {
     @BindView(R.id.site_text_view) TextView siteTextView;
     @BindView(R.id.phone_linear_layout) LinearLayout phoneLinearLayout;
     @BindView(R.id.phone_text_view) TextView phoneTextView;
+    @BindView(R.id.address_linear_layout) LinearLayout addressLinearLayout;
 
     /**
      * Populates detailsActivity with data for particular sight
@@ -27,12 +30,12 @@ public class DetailsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_details_linear_layout);
+        setContentView(R.layout.activity_details);
         ButterKnife.bind(this);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
         Bundle bundle = getIntent().getExtras();
-        Sight sight = (Sight) bundle.getSerializable("sight");
+        final Sight sight = (Sight) bundle.getSerializable("sight");
 
         imageView.setImageResource(sight.getImageResourceId());
         titleTextView.setText(sight.getName());
@@ -41,14 +44,41 @@ public class DetailsActivity extends AppCompatActivity {
 
         if (!sight.getSite().equals("empty")) {
             siteTextView.setText(sight.getSite());
+            siteLinearLayout.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent = new Intent(Intent.ACTION_VIEW);
+                    intent.setData(Uri.parse("http://www." + sight.getSite()));
+                    startActivity(intent);
+                }
+            });
         } else {
             siteLinearLayout.setVisibility(View.GONE);
         }
 
         if (!sight.getPhone().equals("empty")) {
             phoneTextView.setText(sight.getPhone());
+            phoneLinearLayout.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", sight.getPhone(), null));
+                    startActivity(intent);
+                }
+            });
         } else {
             phoneLinearLayout.setVisibility(View.GONE);
         }
+
+        addressLinearLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Uri gmmIntentUri = Uri.parse(sight.getCoordinates());
+                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+                mapIntent.setPackage("com.google.android.apps.maps");
+                if (mapIntent.resolveActivity(getPackageManager()) != null) {
+                    startActivity(mapIntent);
+                }
+            }
+        });
     }
 }

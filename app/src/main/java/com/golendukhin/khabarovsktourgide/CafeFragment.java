@@ -27,7 +27,7 @@ public class CafeFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_item_list, container, false);
         ButterKnife.bind(this, view);
 
-        sights = getSights();
+        sights = Utils.getSights(getActivity(), R.array.cafes);
         SightAdapter sightAdapter = new SightAdapter(getContext(), sights);
         listView.setAdapter(sightAdapter);
 
@@ -40,32 +40,5 @@ public class CafeFragment extends Fragment {
             }
         });
         return view;
-    }
-
-    /**
-     * @return cafes and restaurants arrayList to populate list
-     */
-    private ArrayList<Sight> getSights() {
-        Resources resources = getResources();
-        TypedArray typedArray = resources.obtainTypedArray(R.array.cafes);
-        int length = typedArray.length();
-
-        String[][] optionsResources = new String[length][];
-        for (int i = 0; i < length; ++i) {
-            int id = typedArray.getResourceId(i, 0);
-            optionsResources[i] = resources.getStringArray(id);
-        }
-        typedArray.recycle();
-
-        ArrayList<Sight> sights = new ArrayList<>();
-        for (int j = 0; j < optionsResources[0].length; j++) {
-            sights.add(new Sight(optionsResources[0][j],
-                    optionsResources[1][j],
-                    optionsResources[2][j],
-                    optionsResources[3][j],
-                    optionsResources[4][j],
-                    resources.getIdentifier(optionsResources[5][j], "drawable", getActivity().getPackageName())));
-        }
-        return sights;
     }
 }

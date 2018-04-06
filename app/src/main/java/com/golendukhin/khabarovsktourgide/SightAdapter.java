@@ -30,10 +30,7 @@ public class SightAdapter extends ArrayAdapter<Sight> {
         }
         ButterKnife.bind(this, listItemView);
 
-        //ImageView imageView = listItemView.findViewById(R.id.item_image_view);
         imageView.setImageResource(sights.get(position).getImageResourceId());
-
-        //TextView textView = listItemView.findViewById(R.id.item_text_view);
         textView.setText(sights.get(position).getName());
 
         return listItemView;

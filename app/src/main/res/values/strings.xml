@@ -50,6 +50,14 @@
         <item>far_eastern_art_museum</item>
     </string-array>
 
+    <string-array name="museums_coordinates">
+        <item>geo:48.4733128,135.0483913?z=17</item>
+        <item>geo:48.4738605,135.0504834?z=17</item>
+        <item>geo:48.5374095,135.0025631?z=15</item>
+        <item>geo:48.4746162,135.0535986?z=17</item>
+        <item>geo:48.4738145,135.0534072?z=17</item>
+    </string-array>
+
 
     <string-array name="cafe_name">
         <item>Signor Pomidor</item>
@@ -99,6 +107,14 @@
         <item>meet_meat</item>
     </string-array>
 
+    <string-array name="cafe_coordinates">
+        <item>geo:48.4774995,135.0811583?z=17</item>
+        <item>geo:48.4737281,135.0561111?z=17</item>
+        <item>geo:48.4756338,135.0598951?z=17</item>
+        <item>geo:48.4794695,135.0629312?z=17</item>
+        <item>geo:48.473823,135.0569366?z=17</item>
+    </string-array>
+
 
     <string-array name="parks_name">
         <item>Nevelskoy embankment</item>
@@ -119,9 +135,9 @@
     </string-array>
 
     <string-array name="parks_address">
-        <item>maps</item>
+        <item>Google Maps</item>
         <item>Kakhovskaya St., 22</item>
-        <item>map</item>
+        <item>Google Maps</item>
         <item>Turgeneva St., 24</item>
         <item>Mostovaya St., 22</item>
     </string-array>
@@ -148,6 +164,14 @@
         <item>khabarovsk_city_ponds</item>
         <item>square_of_glory</item>
         <item>plyusnins_capture</item>
+    </string-array>
+
+    <string-array name="parks_coordinates">
+        <item>geo:48.4727231,135.0500535?z=17</item>
+        <item>geo:48.5306559,135.0429802?z=17</item>
+        <item>geo:48.480458,135.0785541?z=17</item>
+        <item>geo:48.4665813,135.0658516?z=17</item>
+        <item>geo:48.3548402,134.9839513?z=17</item>
     </string-array>
 
 
@@ -197,5 +221,13 @@
         <item>khabarovsk_regional_philharmony</item>
         <item>triada</item>
         <item>theater_of_the_young_viewer</item>
+    </string-array>
+
+    <string-array name="theaters_coordinates">
+        <item>geo:48.4777228,135.0589406?z=18</item>
+        <item>geo:48.4834056,135.0760389?z=17</item>
+        <item>geo:48.473106,135.0520736?z=17,5</item>
+        <item>geo:48.470777,135.0727379?z=17</item>
+        <item>geo:48.4730832,135.0567692?z=17</item>
     </string-array>
 </resources>
