@@ -17,7 +17,7 @@ public class SightAdapter extends ArrayAdapter<Sight> {
 
     private ArrayList<Sight> sights;
 
-    public SightAdapter(Context context, ArrayList<Sight> sights) {
+    SightAdapter(Context context, ArrayList<Sight> sights) {
         super(context, 0, sights);
         this.sights = sights;
     }

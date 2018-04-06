@@ -6,6 +6,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -22,6 +23,7 @@ public class DetailsActivity extends AppCompatActivity {
     @BindView(R.id.phone_linear_layout) LinearLayout phoneLinearLayout;
     @BindView(R.id.phone_text_view) TextView phoneTextView;
     @BindView(R.id.address_linear_layout) LinearLayout addressLinearLayout;
+    @BindView(R.id.toolbar_back_button) Button toolbarBackButton;
 
     /**
      * Populates detailsActivity with data for particular sight
@@ -80,5 +82,17 @@ public class DetailsActivity extends AppCompatActivity {
                 }
             }
         });
+
+        toolbarBackButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                onBackPressed();
+            }
+        });
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
     }
 }

@@ -5,11 +5,11 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 class PageAdapter extends FragmentPagerAdapter {
-    FragmentManager fragmentManager;
+    //private FragmentManager fragmentManager;
 
     public PageAdapter(FragmentManager fragmentManager) {
         super(fragmentManager);
-        this.fragmentManager = fragmentManager;
+        //this.fragmentManager = fragmentManager;
     }
 
     /**

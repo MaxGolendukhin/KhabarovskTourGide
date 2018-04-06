@@ -22,15 +22,8 @@ final class Utils {
         }
         typedArray.recycle();
 
-
-
-
-
         ArrayList<Sight> sights = new ArrayList<>();
         for (int j = 0; j < optionsResources[0].length; j++) {
-
-            String a = optionsResources[6][j];
-
                     sights.add(new Sight(optionsResources[0][j],
                     optionsResources[1][j],
                     optionsResources[2][j],
