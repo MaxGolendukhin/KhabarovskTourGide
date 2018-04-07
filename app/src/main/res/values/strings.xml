@@ -230,4 +230,10 @@
         <item>geo:48.470777,135.0727379?z=17</item>
         <item>geo:48.4730832,135.0567692?z=17</item>
     </string-array>
+
+    <string name="museums_tab_name">museums</string>
+    <string name="cafes_tab_name">cafes</string>
+    <string name="parks_tab_name">parks</string>
+    <string name="theaters_tab_name">theaters</string>
+    <string name="util_exception_instantiation">Utils class can not be instantiated</string>
 </resources>

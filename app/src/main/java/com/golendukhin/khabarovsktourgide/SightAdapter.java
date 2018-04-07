@@ -24,15 +24,15 @@ public class SightAdapter extends ArrayAdapter<Sight> {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        View listItemView = convertView;
-        if (listItemView == null) {
-            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.fragment_item, parent, false);
+       // View listItemView = convertView;
+        if (convertView == null) {
+            convertView = LayoutInflater.from(getContext()).inflate(R.layout.fragment_item, parent, false);
         }
-        ButterKnife.bind(this, listItemView);
+        ButterKnife.bind(this, convertView);
 
         imageView.setImageResource(sights.get(position).getImageResourceId());
         textView.setText(sights.get(position).getName());
 
-        return listItemView;
+        return convertView;
     }
 }

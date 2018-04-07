@@ -15,7 +15,7 @@ import butterknife.ButterKnife;
 public class ParksFragment extends Fragment {
     @BindView(R.id.list_view) ListView listView;
 
-    ArrayList<Sight> sights;
+    private ArrayList<Sight> sights;
 
     public ParksFragment() {
     }

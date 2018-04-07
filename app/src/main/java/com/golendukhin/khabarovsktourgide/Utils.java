@@ -8,6 +8,13 @@ import java.util.ArrayList;
 final class Utils {
 
     /**
+     * Constructor suppression to avoid initialization
+     */
+    private Utils() {
+        throw new AssertionError(R.string.util_exception_instantiation);
+    }
+
+    /**
      * @return museums arrayList to populate list
      */
     static ArrayList<Sight> getSights(Context context, int arraySourceId) {
